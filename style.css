@@ -1,0 +1,38 @@
+#users{
+    position: relative;
+    background-color: rgb(55, 55, 56);
+    color: #fff;
+    /* top:30%; */
+   
+    padding: 2rem 2rem 2rem;
+    margin: 0 0 2rem 2rem;
+    justify-content: center;
+    display: inline-block;
+    letter-spacing: .1rem;
+    align-self: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 2rem solid #FFF;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+  #addUser {
+    margin-top: 40px;
+    line-height: 60px;
+    padding: 0 40px;
+    background: salmon;
+    border: none;
+    margin-left: 2rem;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+
+  }
+  #addUser:hover {
+    background: #333;
+  }
