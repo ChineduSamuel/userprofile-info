@@ -1,38 +1,108 @@
-#users{
-    position: relative;
-    background-color: rgb(55, 55, 56);
+body{
+    background-color: #150442;
     color: #fff;
-    /* top:30%; */
-   
-    padding: 2rem 2rem 2rem;
-    margin: 0 0 2rem 2rem;
-    justify-content: center;
-    display: inline-block;
-    letter-spacing: .1rem;
-    align-self: center;
-    align-content: center;
-    justify-content: space-around;
-    width: 100%;
-    border-radius: 2rem solid #FFF;
-    margin-bottom: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
     
 }
-
-
-
-  #addUser {
-    margin-top: 40px;
-    line-height: 60px;
-    padding: 0 40px;
-    background: salmon;
-    border: none;
-    margin-left: 2rem;
-    font-weight: 700;
-    font-size: 20px;
+.user-container{
+    height: 40%;
+    width: 20%rem;
+    padding: .5rem;
+    margin: .5rem;
+    justify-content: center;
+    align-items: center;
+    left: 30%;
+    position: relative;
+}
+.input-field{
+    width: 25rem;
+    height: 15rem;
+    background-color: aliceblue;
+    color: black;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 20px solid black;
+    }
+.form-container{
+    height: 40%;
+    width: 20%rem;
+    padding: .2rem;
+    margin: .2rem;
+    justify-content: center;
+    align-items: center;
+    left: 30%;
+    position: relative;
+}
+input{
+    width: 40%;
+    padding: 10px;
+    margin: 5px 20px;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+}
+.onclick-btn{
+    display: flex;
+}
+#delete{
+    width: 20%;
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(238, 35, 9);
+    color: #fff;
+    cursor: pointer;
+}
+#edit{
+    width: 20%;
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color:  cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+}
+ #addUser {
+    display: flex;
+    width: 10%;
+    margin: 5px 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: cornflowerblue;
     color: #fff;
     cursor: pointer;
 
-  }
-  #addUser:hover {
-    background: #333;
-  }
+}
+#update {
+    display: flex;
+    position: relative;
+    width: 10%;
+    left: 19%;
+    margin: 5px 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+
+}
+#update:hover{
+    background-color: rgb(46, 68, 109);
+}
+#addUser:hover{
+    background-color: rgb(61, 92, 150);
+}
+h3{
+    width: 60%;
+    margin: 10px 20px;
+}
