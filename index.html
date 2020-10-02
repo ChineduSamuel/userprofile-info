@@ -13,13 +13,13 @@
 	<div class="form-container">
         <h3> Update/ Add New User </h3> 
 			<input type="hidden" id="index">
-		<input type="text" id="fullName" placeholder="Full Name">
+		<input type="text" id="fullName" placeholder="Full Name" required>
 		<p></p>
-		<input type="text" id="email" placeholder="email">
+		<input type="text" id="email" placeholder="email" required>
 		<p></p>
-		<input type="text" id="phone" placeholder="phone">
+		<input type="text" id="phone" placeholder="phone" required>
 		<p></p>
-		<input type="text" id="profilePics" placeholder="profilePics">
+		<input type="text" id="profilePics" placeholder="profilePics" required>
 	
 		<p></p>
 		</form>
@@ -27,9 +27,13 @@
 		<button id="addUser">ADD</button> 
 		<button id="update">UPDATE</button>
 	   </div>
-
-	    <p></p>
-    </div>
+	   <p></p>
+	   <div class="search-btn" style="margin: auto;">
+	</div>
+	   <input type="text" id="searchParam" placeholder="Search"><button onclick="search()" id="search-btn">Fullname Search</button>
+	   <button onclick="searchAll()" id="search-btn">MultipleUsers Search</button> <button onclick="searchPartMatch()" id="search-btn">Part Match</button>
+	</div>
+   
 <div id="users">
 
 </div>

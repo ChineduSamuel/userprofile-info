@@ -106,3 +106,14 @@ h3{
     width: 60%;
     margin: 10px 20px;
 }
+
+#searchParam {
+    width: 8rem;
+}
+#search-btn{
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color:  cornflowerblue;
+    color: #fff;
+}
